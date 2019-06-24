@@ -45,12 +45,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('CLEARDB_DATABASE_URL'),
-            'host' => env('DB_HOST', ''),
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', 'db4free.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'heroku_39f0e0a84ca8d2d'),
-            'username' => env('DB_USERNAME', 'b91d201e5c0fec'),
-            'password' => env('DB_PASSWORD', 'ed82ee00'),
+            'database' => env('DB_DATABASE', 'stbblog'),
+            'username' => env('DB_USERNAME', 'yaomink12'),
+            'password' => env('DB_PASSWORD', 'android12@'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
